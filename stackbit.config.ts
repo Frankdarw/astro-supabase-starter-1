@@ -5,18 +5,18 @@ export default defineStackbitConfig({
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-      contentDirs: ["src/content"],
+      contentDirs: ["Contenido"],
       models: [
         {
-          name: "Guide",
+          name: "Guía",
           type: "page",
-          urlPath: "/guides/{slug}",
-          filePath: "src/content/guides/{slug}.md",
+          urlPath: "/guías/{slug}",
+          filePath: "Contenido/Guías/{slug}.md",
           fields: [
             { name: "title", type: "string", required: true },
-            { name: "slug", type: "string", required: true }
-          ]
-        }
+            { name: "slug", type: "string", required: true },
+          ],
+        },
       ],
     }),
   ]
