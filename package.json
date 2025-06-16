@@ -16,9 +16,8 @@
     "@tailwindcss/vite": "^4.0.1",
     "astro": "^5.1.10",
     "typescript": "^5.6.3",
-    "@stackbit/cms-git": "^0.6.4",
-    "@stackbit/types": "^0.6.4"
-
+    "@stackbit/cms-git": "^1.0.35",
+    "@stackbit/types": "^2.1.14"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
