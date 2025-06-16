@@ -15,9 +15,7 @@
     "@supabase/supabase-js": "^2.48.1",
     "@tailwindcss/vite": "^4.0.1",
     "astro": "^5.1.10",
-    "typescript": "^5.6.3",
-    "@stackbit/cms-git": "^1.0.35",
-    "@stackbit/types": "^2.1.14"
+    "typescript": "^5.6.3"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
